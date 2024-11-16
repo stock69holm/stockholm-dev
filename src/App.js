@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import SkillsSection from "./components/SkillsSection";
+import ContactSection from "./components/ContactSection";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const skills = [
+    {
+        name: "Java",
+        description: "Основной язык",
+        frameworks: [
+            "Bukkit API",
+            "NMS (Bukkit)",
+            "Forge",
+            "Fabric",
+            "Telegram Bot API",
+            "Discord Bot API",
+        ],
+    },
+    {
+        name: "JavaScript",
+        description: "*",
+        frameworks: [
+            "React"
+        ]
+    },
+    {
+        name: "Python",
+        description: "*"
+    },
+    {
+        name: "Json",
+        description: "*"
+    },
+    {
+        name: "YAML",
+        description: "*"
+    },
+    {
+        name: "SQL",
+        description: "*"
+    },
+    {
+        name: "Git",
+        description: "*"
+    }
+];
+
+const App = () => (
+    <div style={{ backgroundColor: "#1e1e1e", minHeight: "100vh" }}>
+        <Header title="stockholm" subtitle="Ростислав Севастъянов" />
+        <main>
+            <SkillsSection skills={skills} />
+            <ContactSection />
+        </main>
     </div>
-  );
-}
+);
 
 export default App;
