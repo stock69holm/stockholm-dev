@@ -24,6 +24,10 @@ const skills = [
         ]
     },
     {
+        name: "Kotlin",
+        description: "*"
+    },
+    {
         name: "Python",
         description: "*"
     },
