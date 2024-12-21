@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/stockholm-dev/static/css/main.156acb4d.css",
-    "main.js": "/stockholm-dev/static/js/main.17b28932.js",
+    "main.js": "/stockholm-dev/static/js/main.28fa7710.js",
     "static/js/453.d50c76e3.chunk.js": "/stockholm-dev/static/js/453.d50c76e3.chunk.js",
     "static/media/FiraCode.ttf": "/stockholm-dev/static/media/FiraCode.ea32261131becc79ea84.ttf",
     "index.html": "/stockholm-dev/index.html",
     "main.156acb4d.css.map": "/stockholm-dev/static/css/main.156acb4d.css.map",
-    "main.17b28932.js.map": "/stockholm-dev/static/js/main.17b28932.js.map",
+    "main.28fa7710.js.map": "/stockholm-dev/static/js/main.28fa7710.js.map",
     "453.d50c76e3.chunk.js.map": "/stockholm-dev/static/js/453.d50c76e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.156acb4d.css",
-    "static/js/main.17b28932.js"
+    "static/js/main.28fa7710.js"
   ]
 }
